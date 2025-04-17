@@ -47,7 +47,7 @@ npm install
 npm run build
 ```
 
-4. Copie le contenu généré (`main.js`, `manifest.json`) dans ton coffre (vault) Obsidian: `.obsidian/plugins/pgn-translator`
+4. Copie le contenu du dossier `dist/`: (`main.js`, `manifest.json`) dans ton coffre (vault) Obsidian: `.obsidian/plugins/pgn-translator`
 
 5. Dans Obsidian:
  - Va dans **Options → Modules complémentaires**
