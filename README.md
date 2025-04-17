@@ -24,6 +24,27 @@ ngp: 1. e4 e5 2. Cf3 Cc6 3. Fxc6
 
 ## Installation manuelle
 
-1. Clone ou télécharge ce dépôt
-2. Exécute `npm install` puis `npm run build`
-3. Copie le contenu généré (`main.js`, `manifest.json`, etc.) dans `.obsidian/plugins/pgn-translator`
+1. Clone ou télécharge ce dépôt<br/>
+Ouvre un terminal ou Git Bash, et place toi dans ton répertoire de travail:<br/>
+(ajuste le chemin d'accès à ton répertoire de travail)
+```bash
+cd /c/Users/ton_compte/Documents/ObsidianPlugins
+```
+```bash
+git clone https://github.com/123vincent/PGN-Translator.git
+cd PGN-Translator
+```
+
+2. Exécute `npm install` puis `npm run build`<br/>
+(Nécessite d'avoir installer [Node.js (LTS version)](https://nodejs.org/) au préalable)
+```bash
+npm install
+npm run build
+```
+
+4. Copie le contenu généré (`main.js`, `manifest.json`) dans ton coffre (vault) Obsidian: `.obsidian/plugins/pgn-translator`
+
+5. Dans Obsidian:
+ - Va dans **Options → Modules complémentaires**
+ - Dans la liste **Modules installés**
+ - Active **PGN-Translator**
