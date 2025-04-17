@@ -11,16 +11,21 @@ Ce plugin Obsidian convertit automatiquement les notations d’échecs de l’an
 
 ## Exemple
 
+````
 ```pgn
 pgn: 1. e4 e5 2. Nf3 Nc6 3. Bxc6
 ```
+````
+À la fin du bloc, après les trois ` ``` ` presser sur `ENTER`
 
 Devient :
 
+````
 ```pgn
 pgn: 1. e4 e5 2. Nf3 Nc6 3. Bxc6
 ngp: 1. e4 e5 2. Cf3 Cc6 3. Fxc6
 ```
+````
 
 ## Installation manuelle
 
