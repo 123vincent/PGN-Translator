@@ -1,0 +1,10 @@
+{
+  "id": "pgn-translator",
+  "name": "PGN Translator",
+  "version": "1.0.0",
+  "minAppVersion": "0.12.0",
+  "description": "Convertit automatiquement les notations d’échecs PGN ↔ NGP dans les blocs de code.",
+  "author": "VincentB.",
+  "authorUrl": "https://github.com/vincentb",
+  "main": "main.js"
+}
