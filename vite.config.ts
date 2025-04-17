@@ -8,13 +8,14 @@ export default defineConfig({
       formats: ['cjs'],
       fileName: () => 'main.js'
     },
+    outDir: 'dist',
     rollupOptions: {
       external: ['obsidian'],
       plugins: [
         copy({
           targets: [
-            { src: 'manifest.json', dist: '.' },
-            { src: 'styles.css', dist: '.', rename: 'styles.css' }
+            { src: 'manifest.json', dest: 'dist' },
+            { src: 'styles.css', dest: 'dist' } // uniquement si styles.css existe
           ],
           hook: 'writeBundle'
         })
