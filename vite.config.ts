@@ -13,8 +13,8 @@ export default defineConfig({
       plugins: [
         copy({
           targets: [
-            { src: 'manifest.json', dest: '.' },
-            { src: 'styles.css', dest: '.', rename: 'styles.css' }
+            { src: 'manifest.json', dist: '.' },
+            { src: 'styles.css', dist: '.', rename: 'styles.css' }
           ],
           hook: 'writeBundle'
         })
